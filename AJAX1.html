@@ -8,5 +8,24 @@
 </head>
 <body>
     <h1>Aprendiendo AJAX</h1>
+    <div id="Div1">
+
+    </div>
+    <button id="Btn">Ver lista</button>
+    <script>
+        const Contenedor = document.getElementById("Div1");
+        const Boton = document.getElementById("Btn");
+        Boton.onclick = () => {
+            const XHML = new XMLHttpRequest();
+            XHML.open("GET","Informacion.html",true);
+            XHML.send();
+            XHML.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    var Dato = this.responseText;
+                    Contenedor.innerHTML = Dato;
+                }
+            }
+        }
+    </script>
 </body>
 </html>
