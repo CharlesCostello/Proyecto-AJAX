@@ -12,9 +12,11 @@
 
     </div>
     <button id="Btn">Ver lista</button>
+    <button id="Btn2">Obtener Clientes</button>
     <script>
         const Contenedor = document.getElementById("Div1");
         const Boton = document.getElementById("Btn");
+
         Boton.onclick = () => {
             const XHML = new XMLHttpRequest();
             XHML.open("GET","Informacion.html",true);
