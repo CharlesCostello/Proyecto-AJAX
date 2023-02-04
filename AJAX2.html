@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="Seccion1">
+
+    </section>
+    <button id="btn1">Ver Empleados</button>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(() => {
+                $.get("archivo.json",(data,textStatus,jqXHR) => {
+                    console.log(data);
+                    console.log(textStatus);
+                    console.log(jqXHR);
+                })
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<div id="ContenedorDatos">
+    <label id="lblNombre"></label>
+    <br>
+    <label id="lblEdad">Carlos</label>
+    <br>
+    <label id="lblEstatura">1.68</label>
+    <br>
+    <label id="lblNacionalidad">Mexicano-Britanico</label>
+    <br>
+    <label id="lblResidencia">Bristol,Reino Unido</label>
+</div>
+<!--<script>
+    /*Agregando un objeto json con el cual trabajaremos despues para poder integrarlo en html*/
+    let Cliente = { 
+            "nombre" : "Carlos",
+            "edad" : 21,
+            "estatura" : 1.68,
+            "nacionalidad" : "mexicano-britanico",
+            "aficiones" : [
+                {
+                    "musicales" : "Rock"
+                },
+                {
+                    "comida" : "Hamburguesas,tacos,campechas"
+                },
+                {
+                    "Animes" : ["Jujutsu kaisen", 
+                    "Chainsaw Man",
+                    "Jojos",
+                    "Kimetsu no yaiba"
+                 ]
+                }
+            ],
+          "residencia" : "Bristol , Inglaterra Reino Unido"
+        }
+
+        const EtiquetaNombre = document.getElementById("lblNombre");
+        const EtiquetaEdad = document.getElementById("lblEdad");
+        const EtiquetaEstatura = document.getElementById("lblEstatura");
+        const EtiquetaNacionalidad = document.getElementById("lblNacionalidad");
+        const EtiquetaResidencia = document.getElementById("lblResidencia");
+        const Nombre = Cliente.nombre;
+        const Edad = Cliente.edad;
+        const Estatura = Cliente.estatura;
+        const Nacionalidad = Cliente.nacionalidad;
+        const Residencia = Cliente.residencia;
+
+        EtiquetaNombre.innerText = Nombre;
+        EtiquetaEdad.innerText = Edad;
+        EtiquetaEstatura.innerHTML = Estatura;
+        EtiquetaNacionalidad.innerText = Nacionalidad;
+        EtiquetaResidencia.innerText = Residencia;
+        console.log(JSON.stringify(Cliente.nombre));
+        console.log(JSON.stringify(Cliente.edad));
+        console.log(JSON.stringify(Cliente["aficiones"][2]["Animes"][1]));
+</script>-->
