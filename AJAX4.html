@@ -8,5 +8,23 @@
 </head>
 <body>
     <h1>Personaje Principal de Chainsaw Man</h1>
+    <label id="lbl"></label>
+    <button id="Btn">Buscar</button>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#Btn").click(() => {
+                $.get("Perrito.json",function(a){
+                    $("#lbl").html(`
+                       Nombre: ${a.Nombre} <br>
+                       Edad: ${a.Edad} <br>
+                       Raza: ${a.Raza} <br>
+                       Familiares: ${a.Familiares} <br>
+
+                    `)
+                });
+            });
+        });
+    </script>
 </body>
 </html>

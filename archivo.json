@@ -1,0 +1,26 @@
+{
+    "Empleados":[
+
+        {
+            "Empleado":"Carlos",
+            "Edad": 21,
+            "Estatura": 1.68,
+            "Peso": 74
+        },
+
+        {
+            "Empleado":"Fernando",
+            "Edad": 21,
+            "Estatura": 1.77,
+            "Peso": 85
+        },
+
+        {
+            "Empleado":"Andres",
+            "Edad": 12,
+            "Estatura": 1.60,
+            "Peso": 54
+        }
+]
+
+}
