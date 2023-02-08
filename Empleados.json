@@ -1,0 +1,32 @@
+[
+    {
+        "Nombre": "Carlos",
+        "Edad": 21,
+        "Area": "Desarrollo"
+    },
+
+    {
+        "Nombre": "Armando",
+        "Edad": 27,
+        "Area": "Desarrollo"
+    },
+    
+    {
+        "Nombre": "Sonia",
+        "Edad": 44,
+        "Area": "Desarrollo"
+    },
+
+    {
+        "Nombre": "Toño",
+        "Edad": 25,
+        "Area": "Desarrollo"
+    },
+
+    {
+        "Nombre": "Gilberto",
+        "Edad": 33,
+        "Area": "Desarrollo"
+    }
+
+]
