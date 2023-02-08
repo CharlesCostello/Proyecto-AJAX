@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>Traer Empleados de desarrollo</h1>
+    <ul id="ListaEmpleados"></ul>
+    <button id="Btn">Ver empleados</button>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#Btn").click(() => {
+                $.get("Empleados.json",function(Empleado){
+                    $.each(Empleado, function(index,item){
+                        $("#ListaEmpleados").html( $("#ListaEmpleados").html() +
+                            `<li>${item.Nombre} -- ${item.Edad} -- ${item.Area} </li>`
+                        );
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
