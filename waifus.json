@@ -1,0 +1,19 @@
+[
+    {
+        "Nombre": "Kiss-shot",
+        "Edad":500,
+        "Nacionalidad": "Inglesa"
+    },
+
+    {
+        "Nombre": "Nico robin",
+        "Edad":30,
+        "Nacionalidad": "Rusa"
+    },
+
+    {
+        "Nombre": "Koala",
+        "Edad": 23,
+        "Nacionalidad": "Danesa"
+    }
+]
